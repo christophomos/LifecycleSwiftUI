@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct LifecycleSwiftUIApp: App {
+    var eventCounter = EventCounter()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(eventCounter)
         }
     }
 }

@@ -11,6 +11,10 @@
 		156005E2252B611500E4EE2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156005E1252B611500E4EE2E /* ContentView.swift */; };
 		156005E4252B611900E4EE2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156005E3252B611900E4EE2E /* Assets.xcassets */; };
 		156005E7252B611900E4EE2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156005E6252B611900E4EE2E /* Preview Assets.xcassets */; };
+		156005F2252B644800E4EE2E /* NextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156005F1252B644800E4EE2E /* NextScreen.swift */; };
+		156005F5252B67E000E4EE2E /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156005F4252B67E000E4EE2E /* SheetView.swift */; };
+		15E82A26252B76DD00458306 /* EventCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E82A25252B76DD00458306 /* EventCounter.swift */; };
+		15E82A2A252B796800458306 /* EventCountDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E82A29252B796800458306 /* EventCountDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		156005E3252B611900E4EE2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		156005E6252B611900E4EE2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		156005E8252B611900E4EE2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		156005F1252B644800E4EE2E /* NextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextScreen.swift; sourceTree = "<group>"; };
+		156005F4252B67E000E4EE2E /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		15E82A25252B76DD00458306 /* EventCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCounter.swift; sourceTree = "<group>"; };
+		15E82A29252B796800458306 /* EventCountDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCountDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,9 @@
 		156005DE252B611500E4EE2E /* LifecycleSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				15E82A24252B76BE00458306 /* Model */,
+				156005EF252B617500E4EE2E /* Views */,
 				156005DF252B611500E4EE2E /* LifecycleSwiftUIApp.swift */,
-				156005E1252B611500E4EE2E /* ContentView.swift */,
 				156005E3252B611900E4EE2E /* Assets.xcassets */,
 				156005E8252B611900E4EE2E /* Info.plist */,
 				156005E5252B611900E4EE2E /* Preview Content */,
@@ -67,6 +76,25 @@
 				156005E6252B611900E4EE2E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		156005EF252B617500E4EE2E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				156005E1252B611500E4EE2E /* ContentView.swift */,
+				156005F1252B644800E4EE2E /* NextScreen.swift */,
+				156005F4252B67E000E4EE2E /* SheetView.swift */,
+				15E82A29252B796800458306 /* EventCountDisplay.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		15E82A24252B76BE00458306 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15E82A25252B76DD00458306 /* EventCounter.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				156005E2252B611500E4EE2E /* ContentView.swift in Sources */,
+				15E82A2A252B796800458306 /* EventCountDisplay.swift in Sources */,
+				156005F2252B644800E4EE2E /* NextScreen.swift in Sources */,
+				156005F5252B67E000E4EE2E /* SheetView.swift in Sources */,
 				156005E0252B611500E4EE2E /* LifecycleSwiftUIApp.swift in Sources */,
+				15E82A26252B76DD00458306 /* EventCounter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
